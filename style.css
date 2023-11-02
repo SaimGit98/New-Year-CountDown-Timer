@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.main{
+    width: auto;
+    height: 655px;
+    background: linear-gradient( #ccabd8, #86e3c3 50%, #42f4b0);
+
+}
+header{
+    padding: 5px 8px;
+    display: flex;
+}
+header h3{
+   margin-top: 8px ;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.fa-bars{
+    margin-left: 39vh;
+    margin-top:8px;
+    font-size: 20px;
+    color: #428ff4;
+}
+
+
+
+
+
+
+
+
+
+.heading{
+    margin-left: 7%;
+    color: #ffff;
+    line-height: 2rem;
+}
+span{
+    font-weight: bolder;
+    color: #428ff4;
+    text-shadow: 1px 1px 18px#fff;
+}
+
+/* ____________________________ JS */
+.launch{
+   
+    display: flex;
+    color: white;
+
+    
+}
+.launch div{
+    flex-basis: 90px;
+    margin-left: 20px;
+}
+p{
+    font-size: larger;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 20%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 2%;
+  
+
+}
+h4{
+    font-weight: 900;
+    font-size: large;
+    color:#428ff4 ;
+    margin-top: 10px;
+    text-shadow: 1px 1px 20px #fff;
+}
+ 
+
+.wish{
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 7%;
+    display: flex;
+
+    
+}
+h3{
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h4{
+  font-size: x-large;
+}
+#happy{
+    position: relative;
+    left: 20px;
+    font-size: x-large;
+}
+#birthday{
+    position: absolute;
+   bottom: 125px;
+   left: 130px;
+   font-size: xx-large;
+}
+#in{
+    position: absolute;
+    bottom: 110px;
+    left: 160px;
+    font-size: small;
+}
+#advance{
+    position: absolute;
+    font-size: xx-large;
+    bottom: 80px;
+}
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header h3{
+        font-size: 25px;
+    }
+    .fa-bars{
+        margin-left: 70%;
+    }
+
+    .heading{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 6vw;
+        line-height: 3rem;
+       
+    }
+    .launch div{
+        flex-basis: 110px;
+        margin-top: 20px;
+        margin-left: 50px ;
+         font-size: larger;    
+    }
+    h4{
+        margin-top: 12px;
+    }
+
+    #happy{
+        position: relative;
+        left: 26px;
+        font-size: x-large;
+    }
+    #birthday{
+        position: absolute;
+       bottom: 4px;
+       left: 149px;
+       font-size: xx-large;
+    }
+    #in{
+        position: absolute;
+        bottom: -10px;
+        left: 183px;
+        font-size: small;
+    }
+    #advance{
+        position: absolute;
+        font-size: xx-large;
+        bottom: -35px;
+    }
+  }
+
+
+ @media screen and (min-width: 1024px) {
+.main{
+    height: 800px;
+}
+    header h3{
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    .fa-bars{
+        margin-left: 130vh;
+    }
+    .heading{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 4vw;
+        line-height: 3rem;
+       
+    }
+    .launch div{
+        flex-basis: 100px;
+        margin-top: 50px;
+        margin-left: 80px ;
+         font-size: x-large; 
+    }
+    
+    #happy{
+        margin-top: 20px;
+       font-size: 50px;
+        left: 34px;
+        
+       
+    }
+    #birthday{
+        font-size: 60px;
+       bottom: -105px;
+       left: 237px;
+
+    }
+    #in{
+      font-size: 20px;
+        bottom: -122px;
+        left: 313px;
+   
+    }
+    #advance{
+        position: absolute;
+   font-size: 60px;
+        bottom: -166px;
+    }
+}
+@media screen and (min-width: 1439px) {
+
+    header h3{
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    .fa-bars{
+        margin-left: 110vh;
+    }
+    .heading{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 4vw;
+        line-height: 3.5rem;
+       
+    }
+    .launch div{
+        flex-basis: 100px;
+        margin-top: 50px;
+        margin-left: 100px ;
+         font-size: x-large; 
+    }
+    #happy{
+        margin-top: 20px;
+       font-size: 50px;
+        left: 34px;
+        
+       
+    }
+    #birthday{
+        font-size: 60px;
+       bottom: 76px;
+       left: 237px;
+
+    }
+    #in{
+      font-size: 20px;
+        bottom: 54px;
+        left: 313px;
+   
+    }
+    #advance{
+        position: absolute;
+   font-size: 60px;
+        bottom: 7px;
+    }
+}
+
+
+
